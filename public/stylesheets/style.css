@@ -26,6 +26,11 @@ body {
   color: #FFFFFF;
   font-size: 20px;
 }
+.nav-link:hover{
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+}
 .logo{
   margin-left: 50px;
   padding-bottom: 5px;
