@@ -1,0 +1,107 @@
+body {
+  font-family: 'Roboto', 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+}
+/**** NAVBAR ****/
+.barnav{
+  background-color: none;
+  padding: 0;
+}
+.navbar {
+  background-color: #48277C;
+
+}
+.navbar-brand {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 60px;
+}
+.navbar-nav{
+  margin-left: 800px;
+}
+.nav-link{
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.logo{
+  margin-left: 50px;
+  padding-bottom: 5px;
+}
+.btn-cmd{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.btn-cmd:hover{
+  text-decoration: none;
+}
+/**** About ****/
+
+#about{
+  height: 100vh;
+  padding-top: 100px;
+  /* background-color: #B9BEE6; */
+  background: linear-gradient(135deg, #48277C, #48277C 30%, white);
+  color: #FFFFFF;
+}
+.content-about{
+  margin-top: 40px;
+}
+.text-about{
+  margin-top: 70px;
+  font-size: 30px;
+  text-align: justify;
+
+}
+.card{
+  padding: 0;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  margin-top: 70px;
+  margin-right: 15px;
+}
+/* .profil{
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+} */
+.card-body{
+  color: #FFFFFF;
+  background-color:  #48277C;
+  flex: none;
+
+}
+.card-text {
+  font-size: 20px;
+}
+
+/**** Realisations ****/
+
+#realisations{
+  color: #48277C;
+  height: 100vh;
+  background-color: #f1f2f6;
+  padding-top: 20px;
+
+}
+.img-carousel{
+  height: 500px;
+}
+.carousel{
+  align-items: center;
+  align-self: center;
+}
+
+/**** Contact ****/
+.social{
+  width: 90px;
+}
+#contact{
+  color: #48277C;
+  padding-top: 20px;
+  background-color: #a29bfe;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
